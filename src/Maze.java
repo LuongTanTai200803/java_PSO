@@ -34,11 +34,7 @@ public class Maze {
         map[Constants.START_ROW][Constants.START_COL] = Constants.PATH;
         map[Constants.GOAL_ROW][Constants.GOAL_COL] = Constants.PATH;
     }
-    // Lấy giá trị cell
-    public int getCell(int row, int col) {
-        return map[row][col];
-    }
-    
+  
     // Phương thức in mê cung để kiểm tra
     public void printMaze() {
         System.out.println("--- MAZE MAP (0=Path, 1=Wall) ---");
